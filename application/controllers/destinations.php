@@ -23,4 +23,9 @@ class Destinations extends CI_Controller {
 		$data['results'] = $this->destination_model->get_destinations();
 		$this->load->view('utils/JSON_collection' ,$data);
 	}
+
+	function xml(){
+		$data['results'] = $this->destination_model->get_destinations();
+		$this->load->view('utils/XML_collection' ,$data);
+	}
 }

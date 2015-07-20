@@ -39,7 +39,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="<?= base_url('pages/view');?>">Ganga Welding</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -48,12 +48,18 @@
                         <a href="#">About</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="<?= base_url('destinations');?>">Services</a>
                     </li>
                     <li>
                         <a href="#">Contact</a>
                     </li>
                 </ul>
+
+                <div class="nav navbar-nav navbar-right">
+                    <a class="btn btn-warning btn-xs navbar-btn" href="">
+                        RSS <i class="fa fa-rss"></i>
+                    </a>
+                </div>
             </div>
             <!-- /.navbar-collapse -->
         </div>

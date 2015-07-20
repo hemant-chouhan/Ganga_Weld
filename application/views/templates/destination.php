@@ -2,7 +2,7 @@
 
 <div class="col-sm-<?= $size ?> col-lg-<?= $size ?> col-md-<?= $size ?>">
     <div class="thumbnail">
-        <img src="/<?= $thumb ?>" alt="">
+        <img src="<?= $thumb ?>" alt="">
             <div class="caption">
                 <h4 class="pull-right">$<?= $price ?></h4>
                 <h4>
